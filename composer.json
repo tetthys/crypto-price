@@ -1,0 +1,13 @@
+{
+  "name": "tetthys/crypto-price",
+  "description": "Ultra-light crypto price service (USD spot + converters) for PHP 8.3+.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": { "Tetthys\\CryptoPrice\\": "src/" }
+  },
+  "require": {
+    "php": "^8.3",
+    "ext-bcmath": "*"
+  }
+}
